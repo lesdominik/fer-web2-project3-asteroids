@@ -1,7 +1,11 @@
+:root {
+	--background-gray: #393e46;
+}
+
 body {
-  margin: 0;
+	margin: 0;
 }
 
 canvas {
-  background-color: aquamarine;
+	background-color: var(--background-gray);
 }
