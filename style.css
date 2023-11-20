@@ -1,11 +1,9 @@
-:root {
-	--background-gray: #393e46;
-}
-
 body {
 	margin: 0;
+	/* disable page scroll when pressing arrows: */
+	overflow: hidden;
 }
 
 canvas {
-	background-color: var(--background-gray);
+	border: red 2px solid;
 }
